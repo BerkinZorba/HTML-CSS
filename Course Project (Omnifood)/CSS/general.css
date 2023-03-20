@@ -63,7 +63,7 @@ Default:
   box-sizing: border-box;
 }
 
-/* Hot to change rem value */
+/*? How to change rem value */
 html {
   /* font-size: 10px; */
   /* 10px / 16px = 0.65 = 62.5% */
@@ -83,11 +83,11 @@ body {
 }
 
 /***************************/
-/* GENERAL REUSABLE COMPONENTS */
+/*! GENERAL REUSABLE COMPONENTS */
 /***************************/
 
 .container {
-  /* Default, another value 114rem */
+  /*? Default, another value 114rem */
   max-width: 120rem;
   padding: 0 3.2rem;
   margin: 0 auto;
@@ -217,7 +217,7 @@ between 2 grids in the same container */
 
   /* border: 3px solid #fff */
 
-  /* Trick to add border inside */
+  /*? Trick to add border inside */
   box-shadow: inset 0 0 0 3px #fff;
 }
 
@@ -279,16 +279,16 @@ between 2 grids in the same container */
   outline: 4px dotted #e67e22;
   outline-offset: 8px;
   /* 
-  For elements with box-radius this focus element won't get have curved edges 
-  so we can fix it with box shadow
+  ?For elements with box-radius this focus element won't get have curved edges 
+  ?so we can fix it with box shadow
    
   box-shadow: 0 0 0 0.8rem #e67e22
   */
 }
 
-/* HELPER/SETTINGS CLASSES */
+/*! HELPER/SETTINGS CLASSES */
 
-/* When we use a helper class like this we put !important so its style can apply */
+/*? When we use a helper class like this we put !important so its style can apply */
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
